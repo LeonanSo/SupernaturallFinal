@@ -44,7 +44,8 @@ button:hover {
 footer{
   background: rgb(0,0,0);
   background: radial-gradient(circle, rgba(0,0,0,1) 67%, rgba(103,0,0,1) 100%);
-  margin-top: 45px;
+  margin-top: 15px;
+  width: 100%;
   height: 50px;
   display: flex;
   justify-content: center;

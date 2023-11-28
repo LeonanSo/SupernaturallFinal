@@ -43,10 +43,11 @@ body {
     overflow: hidden;
     border-radius: 8px;
     box-shadow: 1px 1px 5px 10px rgb(248, 0, 0);
+    transition: transform .5s linear;
 }
 .photo:hover {
-    transform: scale(1.3);
-    transition: transform .4s linear;
+    transform: scale(1.1);
+    
 }
 
 

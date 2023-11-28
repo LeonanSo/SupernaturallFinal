@@ -18,7 +18,7 @@
 <body>
   <div id="background">
 <video loop autoplay muted>
-<source src="" type="video/mp4">
+<source src="assets/background-video-vimeo-888096774-dash-google_mediacdn_sep-video-d2f147a1.mp4" type="video/mp4">
 </video>
   </div>
   <div id="app">
@@ -65,9 +65,10 @@
           </a>
         </div>
     </header>
+
     <div id="ap">
       <main class="home">
-        <form action='/success' class='form' method='POST' name='contact'><input type='hidden' name='form-name' value='contact' /> 
+        <form class="form" /> 
           <h1>
             Envie-nos feedback do Site
             <svg stroke-width="0" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
@@ -104,17 +105,7 @@
                 placeholder="(99) 99999-9999"
                 onblur="blurInput(this)"
               />
-            </label>
-  
-            <label id="label-company">
-              Empresa
-              <input
-                name="company"
-                type="text"
-                placeholder="Nome da empresa"
-                onblur="blurInput(this)"
-              />
-            </label>
+            </label>      
   
             <label id="label-message">
               Mensagem
@@ -134,7 +125,7 @@
 </button>
           </form>
       <main>
-        
+
       
 <script src="./scripts/index.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

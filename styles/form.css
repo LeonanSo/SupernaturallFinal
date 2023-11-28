@@ -3,6 +3,7 @@ form {
     display: flex;
     flex-direction: column;
     row-gap: 40px ;
+    border-radius: 12px;
 
     flex: 1;
     padding: 60px;
@@ -83,7 +84,7 @@ label input {
 
 }
 label input::placeholder {
-    color: var(--silve);
+    color: var(--silver);
 }
 
 .form button {
